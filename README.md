@@ -15,9 +15,9 @@ plate-blog/
 ├── posts/                  # All posts in individual folders
 │   └── [slug]/
 │       ├── index.html      # The post
-│       └── transcript.md   # Source transcript (if applicable)
+│       ├── transcript.md   # Source transcript (if applicable)
+│       └── *.jpg/png       # Images for this post (if any)
 ├── drafts/                 # Work in progress
-│   └── adaptation-plans/   # Plans from CAH 205 newsletters
 ├── archive/                # Unused materials
 │   └── unused-transcripts/
 ├── docs/                   # Documentation
@@ -72,7 +72,16 @@ This blog uses a `posts.json` manifest that the dashboard scraper reads directly
 
 1. Create `posts/[slug]/index.html` (copy from `_template/`)
 2. Add transcript to `posts/[slug]/transcript.md` if applicable
-3. Add entry to `posts.json`
-4. Add entry to `index.html`
+3. Add images to `posts/[slug]/` if applicable
+4. Add entry to `posts.json`
+5. Add entry to `index.html`
+
+### Images
+
+Images live in the same folder as the post they belong to. Reference them with a simple relative path:
+
+```html
+<img src="my-image.jpg" alt="Description of image">
+```
 
 See the main `CLAUDE.md` for detailed instructions.
