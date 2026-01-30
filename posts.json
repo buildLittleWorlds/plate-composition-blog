@@ -1,0 +1,81 @@
+{
+  "blog": {
+    "title": "AI, Writing, and Work",
+    "author": "Dr. Plate",
+    "url": "https://buildlittleworlds.github.io/plate-composition-blog"
+  },
+  "posts": [
+    {
+      "slug": "moral-agency-outside-the-therapist",
+      "title": "The Moral Agency That Lives Outside the Therapist",
+      "date": "2026-01-29",
+      "dateDisplay": "January 29, 2026"
+    },
+    {
+      "slug": "the-romanticized-ceiling",
+      "title": "The Romanticized Ceiling",
+      "date": "2026-01-23",
+      "dateDisplay": "January 23, 2026"
+    },
+    {
+      "slug": "the-price-signal",
+      "title": "What Concert Tickets Teach Us About Value",
+      "date": "2026-01-23",
+      "dateDisplay": "January 23, 2026"
+    },
+    {
+      "slug": "the-planning-is-the-thinking",
+      "title": "The Planning Is the Thinking",
+      "date": "2026-01-16",
+      "dateDisplay": "January 16, 2026"
+    },
+    {
+      "slug": "the-fluency-illusion",
+      "title": "The Fluency Illusion",
+      "date": "2026-01-14",
+      "dateDisplay": "January 14, 2026"
+    },
+    {
+      "slug": "what-we-outsource-to",
+      "title": "What We Outsource To",
+      "date": "2026-01-13",
+      "dateDisplay": "January 13, 2026"
+    },
+    {
+      "slug": "two-theories-of-safety",
+      "title": "Two Theories of Safety",
+      "date": "2026-01-12",
+      "dateDisplay": "January 12, 2026"
+    },
+    {
+      "slug": "the-book-and-the-chatbot",
+      "title": "The Book and the Chatbot",
+      "date": "2026-01-12",
+      "dateDisplay": "January 12, 2026"
+    },
+    {
+      "slug": "the-ocean-in-the-chatbot",
+      "title": "The Ocean in the Chatbot",
+      "date": "2026-01-12",
+      "dateDisplay": "January 12, 2026"
+    },
+    {
+      "slug": "thinking-at-a-higher-level",
+      "title": "Thinking at a Higher Level",
+      "date": "2026-01-11",
+      "dateDisplay": "January 11, 2026"
+    },
+    {
+      "slug": "what-a-ban-cant-teach",
+      "title": "What a Ban Can't Teach",
+      "date": "2026-01-08",
+      "dateDisplay": "January 8, 2026"
+    },
+    {
+      "slug": "the-agency-paradox",
+      "title": "The Agency Paradox",
+      "date": "2026-01-08",
+      "dateDisplay": "January 8, 2026"
+    }
+  ]
+}

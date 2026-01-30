@@ -4,10 +4,27 @@ This is the instructor example blog for ENGL 170 (Composition II) at Lindenwood 
 
 ## What's Here
 
-- **Blog posts** exploring AI, writing, and intellectual work
-- **`_template.html`** — starter file for new posts
-- **`transcripts/`** — source transcripts used for writing posts
-- **`drafts/`** — work in progress
+```
+plate-blog/
+├── index.html              # Post list
+├── about.html
+├── style.css
+├── posts.json              # Manifest for dashboard scraper
+├── _template/              # Template for new posts
+│   └── index.html
+├── posts/                  # All posts in individual folders
+│   └── [slug]/
+│       ├── index.html      # The post
+│       └── transcript.md   # Source transcript (if applicable)
+├── drafts/                 # Work in progress
+│   └── adaptation-plans/   # Plans from CAH 205 newsletters
+├── archive/                # Unused materials
+│   └── unused-transcripts/
+├── docs/                   # Documentation
+│   ├── style-guide.md
+│   └── blog-rubric.md
+└── README.md
+```
 
 ## Live Site
 
@@ -26,7 +43,7 @@ This blog demonstrates the format and approach expected in ENGL 170. Each post:
 3. Develops an original position with evidence
 4. Links to the source in the post metadata
 
-You can use `_template.html` as a starting point for your own posts. The key structural elements:
+You can use `_template/index.html` as a starting point for your own posts. The key structural elements:
 
 - Title in `<h2>`
 - Meta line with date and source link
@@ -48,3 +65,14 @@ For your posts to appear on the course dashboard, your `index.html` must include
 ```
 
 The dashboard scraper looks for this exact structure.
+
+## Instructor Notes
+
+This blog uses a `posts.json` manifest that the dashboard scraper reads directly (instead of parsing HTML). When adding a new post:
+
+1. Create `posts/[slug]/index.html` (copy from `_template/`)
+2. Add transcript to `posts/[slug]/transcript.md` if applicable
+3. Add entry to `posts.json`
+4. Add entry to `index.html`
+
+See the main `CLAUDE.md` for detailed instructions.
