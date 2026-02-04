@@ -6,6 +6,12 @@
   },
   "posts": [
     {
+      "slug": "the-same-problem-twice",
+      "title": "The Same Problem Twice: Sports AI and the Therapy Debate",
+      "date": "2026-02-04",
+      "dateDisplay": "February 4, 2026"
+    },
+    {
       "slug": "testing-moral-agency",
       "title": "Testing Moral Agency: The Umpire and the Therapist",
       "date": "2026-02-04",
