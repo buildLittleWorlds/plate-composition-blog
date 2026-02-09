@@ -6,6 +6,12 @@
   },
   "posts": [
     {
+      "slug": "the-canary-in-the-codebase",
+      "title": "The Canary in the Codebase",
+      "date": "2026-02-09",
+      "dateDisplay": "February 9, 2026"
+    },
+    {
       "slug": "the-same-problem-twice",
       "title": "The Same Problem Twice: Sports AI and the Therapy Debate",
       "date": "2026-02-04",
