@@ -6,6 +6,12 @@
   },
   "posts": [
     {
+      "slug": "new-vulnerabilities",
+      "title": "New Vulnerabilities",
+      "date": "2026-02-09",
+      "dateDisplay": "February 9, 2026"
+    },
+    {
       "slug": "the-canary-in-the-codebase",
       "title": "The Canary in the Codebase",
       "date": "2026-02-09",
