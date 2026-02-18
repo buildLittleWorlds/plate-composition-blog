@@ -6,6 +6,12 @@
   },
   "posts": [
     {
+      "slug": "nobody-hired-you-because-you-needed-work",
+      "title": "Nobody Hired You Because You Needed Work",
+      "date": "2026-02-18",
+      "dateDisplay": "February 18, 2026"
+    },
+    {
       "slug": "new-vulnerabilities",
       "title": "New Vulnerabilities",
       "date": "2026-02-09",
